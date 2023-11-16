@@ -1,0 +1,270 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32486 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/Fiona/Desktop/virtualboyfriend
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+50150
+Successfully changed project path to: C:/Users/Fiona/Desktop/virtualboyfriend
+C:/Users/Fiona/Desktop/virtualboyfriend
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3664] Host "[IP] 192.168.1.73 [Port] 0 [Flags] 2 [Guid] 1632967071 [EditorId] 1632967071 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIQNL62) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3664] Host "[IP] 192.168.1.73 [Port] 0 [Flags] 2 [Guid] 1632967071 [EditorId] 1632967071 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIQNL62) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 218.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Fiona/Desktop/virtualboyfriend/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3951 MB
+    Driver:   31.0.15.3209
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013876 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 482 ms
+Refreshing native plugins compatible for Editor in 208.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.118 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2120ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1721ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1350ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (697ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (209ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 193.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3520ms)
+		BeginReloadAssembly (357ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2873ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (777ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (160ms)
+			SetupLoadedEditorAssemblies (1525ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (194ms)
+				BeforeProcessingInitializeOnLoad (250ms)
+				ProcessInitializeOnLoadAttributes (973ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (1.9 MB). Loaded Objects now: 3863.
+Memory consumption went from 149.9 MB to 148.0 MB.
+Total: 4.865500 ms (FindLiveObjects: 0.631100 ms CreateObjectMapping: 0.327800 ms MarkObjects: 3.244300 ms  DeleteObjects: 0.660700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181430.668517 seconds.
+  path: Assets/Textures/CupTexture.mat
+  artifactKey: Guid(efad7a45da674214b9b4732154928942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CupTexture.mat using Guid(efad7a45da674214b9b4732154928942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631812a8a40d69d20bba47d470a122b9') in 0.234699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.323317 seconds.
+  path: Assets/Textures/BowlTexture.mat
+  artifactKey: Guid(9f4be3875eb00564cb3391e7b045808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BowlTexture.mat using Guid(9f4be3875eb00564cb3391e7b045808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd130cfe5d8e54241eb877a4a5b24700c') in 0.017502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.189366 seconds.
+  path: Assets/Textures/Silver.mat
+  artifactKey: Guid(e2692fe0d4849504f90d03fe84d67f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Silver.mat using Guid(e2692fe0d4849504f90d03fe84d67f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28bc534c5114f0dadcd8324c43f2312') in 0.015668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.184993 seconds.
+  path: Assets/Textures/BowlTexture.mat
+  artifactKey: Guid(9f4be3875eb00564cb3391e7b045808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BowlTexture.mat using Guid(9f4be3875eb00564cb3391e7b045808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f291c51936a904323a7ab67f9dcef509') in 0.016156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/KnobTexture.mat
+  artifactKey: Guid(365f966eeebe9654da75daae416f89cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KnobTexture.mat using Guid(365f966eeebe9654da75daae416f89cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbf72cb9d81af2f8cafc190ceb824ed') in 0.017400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Silver.mat
+  artifactKey: Guid(e2692fe0d4849504f90d03fe84d67f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Silver.mat using Guid(e2692fe0d4849504f90d03fe84d67f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cb7d10f5873dd1da4c24dc013098d7') in 0.020237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 179.332956 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven
+  artifactKey: Guid(212b578da32a02b409280121a1f826e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven using Guid(212b578da32a02b409280121a1f826e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f07be4efa725a3450641dab8a8c4f7') in 0.011465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.769165 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source
+  artifactKey: Guid(16297453226cdfe488d0b0ebce8d1776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source using Guid(16297453226cdfe488d0b0ebce8d1776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc79c29064dfcdd00349b16bcfe3481b') in 0.003246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.860468 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source/Small_Kitchen.zip
+  artifactKey: Guid(eb10b8f55e18710469a9d0fb11dcac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source/Small_Kitchen.zip using Guid(eb10b8f55e18710469a9d0fb11dcac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62505c5ee50deb57351c81c31b544d07') in 0.018321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.266747 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source/Small_Kitchen.fbx
+  artifactKey: Guid(b27d42ee6441e6248bd70d022f52c4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source/Small_Kitchen.fbx using Guid(b27d42ee6441e6248bd70d022f52c4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000a4696b13c21cb08a07553c7ab1ff1') in 0.083818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.146979 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source/Textures
+  artifactKey: Guid(c87f72fbea65b004cb02fc4c21500b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source/Textures using Guid(c87f72fbea65b004cb02fc4c21500b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4d6ca9bfda8596d489abadeb81fac6') in 0.013715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.767960 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k
+  artifactKey: Guid(59cc47db1548ed54098a06bd83083aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k using Guid(59cc47db1548ed54098a06bd83083aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9778adc7cbc9f68188a99be4e7d4127d') in 0.013691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047414 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k/#CAB0001_Textures_AO_2k.png
+  artifactKey: Guid(c4630fc2653371641bb7f4f3b612d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k/#CAB0001_Textures_AO_2k.png using Guid(c4630fc2653371641bb7f4f3b612d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eef19b8de410f4abea4968bf7d0c7b7') in 0.063601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k/#CAB0001_Textures_ROUGH_2k.png
+  artifactKey: Guid(0dba0ca610e09d0498100af686ecd922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k/#CAB0001_Textures_ROUGH_2k.png using Guid(0dba0ca610e09d0498100af686ecd922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e240c6e875bb9e77e3186d2ce53870') in 0.030738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k/#CAB0001_Textures_OPAC_2k.png
+  artifactKey: Guid(560483ffcc636b44fa73ccf962668ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k/#CAB0001_Textures_OPAC_2k.png using Guid(560483ffcc636b44fa73ccf962668ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374902bba3441d9ce838e47a059894a9') in 0.024462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k/#CAB0001_Textures_EMIS_2k.png
+  artifactKey: Guid(e5cb812d9d77b534a9f65b83174bbbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/small-kitchen-with-oven/source/Textures/#CAB0001_Textures_2k/#CAB0001_Textures_EMIS_2k.png using Guid(e5cb812d9d77b534a9f65b83174bbbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc4642466b9f308188e68f1b74085b8') in 0.022876 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
