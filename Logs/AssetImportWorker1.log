@@ -15,7 +15,7 @@ C:/Users/10bit/Desktop/virtualboyfriend
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51582
+57323
 Successfully changed project path to: C:/Users/10bit/Desktop/virtualboyfriend
 C:/Users/10bit/Desktop/virtualboyfriend
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/10bit/Desktop/virtualboyfriend
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2944] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3151883856 [EditorId] 3151883856 [Version] 1048832 [Id] WindowsEditor(7,Fiona) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2548] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3918256011 [EditorId] 3918256011 [Version] 1048832 [Id] WindowsEditor(7,Fiona) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2944] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3151883856 [EditorId] 3151883856 [Version] 1048832 [Id] WindowsEditor(7,Fiona) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2548] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3918256011 [EditorId] 3918256011 [Version] 1048832 [Id] WindowsEditor(7,Fiona) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 57.09 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.38 ms.
+Refreshing native plugins compatible for Editor in 85.16 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path F:/Unity/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/10bit/Desktop/virtualboyfriend/Assets
@@ -67,49 +67,49 @@ Initialize mono
 Mono path[0] = 'F:/Unity/2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001074 seconds.
+Registered in 0.000995 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.41 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 49.94 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.342 seconds
 Domain Reload Profiling:
 	ReloadAssembly (343ms)
-		BeginReloadAssembly (42ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (254ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (246ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (57ms)
+			SetupTypeCache (52ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (157ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
+				RefreshPlugins (50ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002792 seconds.
+Registered in 0.002589 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.20 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 52.20 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\10bit\Desktop\virtualboyfriend\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
@@ -127,43 +127,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
+- Completed reload, in  0.722 seconds
 Domain Reload Profiling:
-	ReloadAssembly (772ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (722ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (660ms)
-			LoadAssemblies (44ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (349ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (226ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (225ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 4495 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 52 unused Assets / (1.9 MB). Loaded Objects now: 4979.
-Memory consumption went from 194.1 MB to 192.2 MB.
-Total: 2.514200 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.070300 ms MarkObjects: 1.822200 ms  DeleteObjects: 0.319900 ms)
+Memory consumption went from 194.1 MB to 192.3 MB.
+Total: 2.571100 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.089400 ms MarkObjects: 1.860700 ms  DeleteObjects: 0.333900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,36 +178,36 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22280.334824 seconds.
-  path: Assets/LivingRoom/kotatsu/Materials/top1_Base_Color.mat
-  artifactKey: Guid(400474e5a29a1a747a4d341567e8d542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LivingRoom/kotatsu/Materials/top1_Base_Color.mat using Guid(400474e5a29a1a747a4d341567e8d542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14985e4fef79f0c9dec73a3255a376ee') in 0.075087 seconds 
+  Time since last request: 87337.223578 seconds.
+  path: Assets/Kitchen/cc0-sponge-3/textures/Sponge3Normal.png
+  artifactKey: Guid(fba7caf9f973cde419f0b2e692032d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/cc0-sponge-3/textures/Sponge3Normal.png using Guid(fba7caf9f973cde419f0b2e692032d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2424520c35a06756fd5aa4b79915254') in 0.114197 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.315802 seconds.
-  path: Assets/Kitchen/toaster (1)/source/toaster.fbx
-  artifactKey: Guid(074411da87aa5b146bb32670370c564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/toaster (1)/source/toaster.fbx using Guid(074411da87aa5b146bb32670370c564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cb66de99b406037329509d9c24b55a') in 0.074172 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/LivingRoom/kotatsu/textures/table_bottom_Normal_OpenGL.png
+  artifactKey: Guid(a9f9a1a75d54445468e431e67ad5e4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LivingRoom/kotatsu/textures/table_bottom_Normal_OpenGL.png using Guid(a9f9a1a75d54445468e431e67ad5e4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189c3e9ba41d7a4736e21541b4ca0609') in 0.013033 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 200.616140 seconds.
-  path: Assets/Outside/simple-japanese-house-1/textures/JP-House-Assets_low_MAT_JPHouse_Emissive.1.png
-  artifactKey: Guid(545a6f8cc9decd14094096b0eebe5a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Outside/simple-japanese-house-1/textures/JP-House-Assets_low_MAT_JPHouse_Emissive.1.png using Guid(545a6f8cc9decd14094096b0eebe5a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf7f4bc0fe0d1e85d82937a7948e74b') in 0.036872 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/LivingRoom/kotatsu/textures/lambert2_Normal_OpenGL.png
+  artifactKey: Guid(c6866831f2a709d4fae04bbb1e3f2835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LivingRoom/kotatsu/textures/lambert2_Normal_OpenGL.png using Guid(c6866831f2a709d4fae04bbb1e3f2835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5993e8fd0e8ce27b0b50ec1ee6b442f') in 0.012894 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Outside/simple-japanese-house-1/textures/JP-House-Assets_low_MAT_JPHouse_Normal.100.png
-  artifactKey: Guid(4106f44bb6e2bcf49b9000b4cc8c53d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Outside/simple-japanese-house-1/textures/JP-House-Assets_low_MAT_JPHouse_Normal.100.png using Guid(4106f44bb6e2bcf49b9000b4cc8c53d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73d0085bd024abe82c72dbf4ad5ae9a') in 0.009866 seconds 
+  Time since last request: 0.000012 seconds.
+  path: Assets/LivingRoom/kotatsu/textures/top1_Normal_OpenGL.png
+  artifactKey: Guid(5bc3ab88170af774abd5047b0bbb133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LivingRoom/kotatsu/textures/top1_Normal_OpenGL.png using Guid(5bc3ab88170af774abd5047b0bbb133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb492362d8cbd0eef3810a28fbbb375') in 0.010935 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003768 seconds.
+Registered in 0.002550 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\10bit\Desktop\virtualboyfriend\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\10bit\Desktop\virtualboyfriend\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
@@ -224,40 +224,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
+- Completed reload, in  0.681 seconds
 Domain Reload Profiling:
-	ReloadAssembly (655ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (681ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (525ms)
-			LoadAssemblies (47ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (542ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (149ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.20 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.91 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 4401 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (1.8 MB). Loaded Objects now: 5029.
-Memory consumption went from 190.6 MB to 188.8 MB.
-Total: 3.178900 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.429400 ms  DeleteObjects: 0.331500 ms)
+Unloading 32 unused Assets / (1.9 MB). Loaded Objects now: 4989.
+Memory consumption went from 190.4 MB to 188.5 MB.
+Total: 2.510600 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.074100 ms MarkObjects: 1.821200 ms  DeleteObjects: 0.345000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -270,6 +270,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 283.036952 seconds.
+  path: Assets/Kitchen/ToteBag/source/Rattan Tote Bag (EMP (SBH) 27E).fbx
+  artifactKey: Guid(bc70d3748a2e9e948a5e513bb6f7f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/ToteBag/source/Rattan Tote Bag (EMP (SBH) 27E).fbx using Guid(bc70d3748a2e9e948a5e513bb6f7f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be9154b45f5bf9c2b34ab2fcb869db') in 0.124884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LivingRoom/kotatsu/textures/table_bottom_Base_Color.png
+  artifactKey: Guid(d3881e1c2c79d5a4c90f42dac051475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LivingRoom/kotatsu/textures/table_bottom_Base_Color.png using Guid(d3881e1c2c79d5a4c90f42dac051475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2eabe655dac860d188fc3f31c8aa92') in 0.019758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kitchen/ToteBag/source/M_0_EMP (SBH) 27E_BaseColor.jpg
+  artifactKey: Guid(9ee5f46216601b347b633ae2f6040c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/ToteBag/source/M_0_EMP (SBH) 27E_BaseColor.jpg using Guid(9ee5f46216601b347b633ae2f6040c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc144e8a6e1b911f1cb00a571f6bcec1') in 0.012360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LivingRoom/kotatsu/textures/table_bottom_Height.png
+  artifactKey: Guid(16d0ba802718bdc45aea287c1b845bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LivingRoom/kotatsu/textures/table_bottom_Height.png using Guid(16d0ba802718bdc45aea287c1b845bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56b61238f92aebc7f7aaa7a2e85feff') in 0.017329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LivingRoom/kotatsu/textures/table_bottom_Roughness.png
+  artifactKey: Guid(78f39ff97a6f4424884a1e402cdc6d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LivingRoom/kotatsu/textures/table_bottom_Roughness.png using Guid(78f39ff97a6f4424884a1e402cdc6d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a17a385beca839be141c90ad7f3e697') in 0.013711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kitchen/ToteBag/textures/M_0_EMP (SBH) 27E_BaseColor.jpeg
+  artifactKey: Guid(10717d9720b84ad44b55707897369269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen/ToteBag/textures/M_0_EMP (SBH) 27E_BaseColor.jpeg using Guid(10717d9720b84ad44b55707897369269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca647e299ef32deab45e17a51e5b201a') in 0.007204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LivingRoom/kotatsu/textures/table_bottom_Mixed_AO.png
+  artifactKey: Guid(14122e8e1d258114da79e08bd4977e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LivingRoom/kotatsu/textures/table_bottom_Mixed_AO.png using Guid(14122e8e1d258114da79e08bd4977e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06124ad4eb517b0b9e96a01b453f4d6') in 0.013988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LivingRoom/kotatsu/textures/table_bottom_Metallic.png
+  artifactKey: Guid(af1f5348e133d994faaff71815989b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LivingRoom/kotatsu/textures/table_bottom_Metallic.png using Guid(af1f5348e133d994faaff71815989b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea0dd096d0c8d0ae40b1656afce19cf') in 0.010821 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
