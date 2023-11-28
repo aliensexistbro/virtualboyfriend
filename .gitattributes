@@ -1,5 +1,0 @@
-/Assets/Subway/TrainVideo-1.mp4 filter=lfs diff=lfs merge=lfs -text
-/Assets/Subway/TrainFront.mp4 filter=lfs diff=lfs merge=lfs -text
-/Assets/Subway/TrainVideo.mp4 filter=lfs diff=lfs merge=lfs -text
-/Assets/Subway/TraiinFrontView.mp4 filter=lfs diff=lfs merge=lfs -text
-/Subway/TraiinFrontView.mp4 filter=lfs diff=lfs merge=lfs -text
