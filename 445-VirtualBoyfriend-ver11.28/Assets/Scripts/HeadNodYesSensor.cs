@@ -76,6 +76,7 @@ public class HeadNodYesSensor : MonoBehaviour
 				LastDigitalNod = nod;
 
 				NodCount++;
+				
 
 				// reset timing, we think you might still be nodding
 				NodInProgress = NodTimingRequirement;
@@ -85,7 +86,7 @@ public class HeadNodYesSensor : MonoBehaviour
 					NodCount = 0;
 					Debug.Log("Yuuuup!");
 					animator.SetTrigger("thumbsup");
-					// TODO: perhaps inhibit sensing for a second or so?
+				
 					if (UIConversationButton.Instance!=null)
 					 UIConversationButton.Instance.doHeadnodeYes();
 
