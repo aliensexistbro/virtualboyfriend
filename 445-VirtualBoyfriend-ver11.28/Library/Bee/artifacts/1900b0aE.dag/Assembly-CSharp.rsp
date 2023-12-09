@@ -384,6 +384,7 @@
 "Assets/Scripts/ProgressBar.cs"
 "Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/startConvo.cs"
+"Assets/Scripts/subwayScene.cs"
 "Assets/UI/DialogueEditor/Assets/Scripts/Condition.cs"
 "Assets/UI/DialogueEditor/Assets/Scripts/Connection.cs"
 "Assets/UI/DialogueEditor/Assets/Scripts/Conversation.cs"

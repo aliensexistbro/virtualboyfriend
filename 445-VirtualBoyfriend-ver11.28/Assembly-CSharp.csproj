@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\doorKnocker.cs" />
     <Compile Include="Assets\Scripts\HeadShakeNoSensor.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\subwayScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI\DialogueEditor\TextMesh Pro\Shaders\TMPro.cginc" />

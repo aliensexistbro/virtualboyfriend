@@ -8,6 +8,8 @@ public class SceneLoader : MonoBehaviour
     public string sceneName;
     public Animator transition;
     public float transitionTime = 1f;
+    bool loadingStarted = false;
+    float secondsLeft = 0;
     // Update is called once per frame
     public void ExitGame()
     {
@@ -27,5 +29,22 @@ public class SceneLoader : MonoBehaviour
     {
         StartCoroutine(FadeScene(sceneName));
         Debug.Log("playing");
+    }
+
+    public void TimeLoad(float seconds)
+    {
+        StartCoroutine(DelayLoadLevel(seconds));
+    }
+
+    IEnumerator DelayLoadLevel(float seconds)
+    {
+        secondsLeft = seconds;
+        loadingStarted = true;
+        do
+        {
+            yield return new WaitForSeconds(1);
+        } while (--secondsLeft > 0);
+
+        LoadScene();
     }
 }
