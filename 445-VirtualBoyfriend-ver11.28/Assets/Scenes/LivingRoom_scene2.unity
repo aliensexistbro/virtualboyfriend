@@ -1054,6 +1054,101 @@ MonoBehaviour:
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 8300000, guid: 7b64b90ab9a1a457ab6f203f1e2211f0, type: 3}
+--- !u!1001 &581686927
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.459
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.893
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.741
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 65702495048144492, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_Name
+      value: karamatsu_for_unity-_no_animations
+      objectReference: {fileID: 0}
+    - target: {fileID: 5212522272044227135, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bf38f3208080a0d4897849d8b8bcb99e, type: 2}
+    - target: {fileID: 5866666021909216657, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 80dbce928f685af4b97c803ed6af46a9, type: 2}
+    - target: {fileID: 5866666021909216657, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'DEF-f_pinky.01.L'\n\tTransform 'DEF-spine.002'\n\tTransform
+        'DEF-shoulder.R'\n\tTransform 'DEF-f_index.02.R'\n\tTransform 'DEF-neck'\n\tTransform
+        'DEF-thumb.01.L'\n\tTransform 'DEF-spine.003'\n\tTransform 'DEF-upper_arm.L'\n\tTransform
+        'DEF-thumb.02.R'\n\tTransform 'DEF-spine.004'\n\tand more ...\n\tFrom animation
+        clip 'mixamo.com'"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7869873546869171050, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf3b4f4ef4af45842bc6b2fe6562f080, type: 3}
 --- !u!1 &596851224
 GameObject:
   m_ObjectHideFlags: 0
@@ -2057,6 +2152,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 839bd84b2197e974bad2180c89babb28, type: 3}
       propertyPath: m_Name
       value: guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 839bd84b2197e974bad2180c89babb28, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1092408308860062549, guid: 839bd84b2197e974bad2180c89babb28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
