@@ -12,7 +12,7 @@ using DialogueEditor;
 public class HeadNodYesSensor : MonoBehaviour
 {
 	public AudioSource AudioYes;
-	public Animator animator;
+	private Animator animator;
 
 	// how many up-downs until we say "you nodded"
 	const float NodCountRequired = 6;
@@ -41,7 +41,7 @@ public class HeadNodYesSensor : MonoBehaviour
 				//Debug.Log( "Timed out - NOD YES");
 				NodCount = 0;
 				LastDigitalNod = 0;
-				animator.ResetTrigger("thumbsup");
+				//animator.ResetTrigger("thumbsup");
 			}
 		}
 
@@ -85,10 +85,11 @@ public class HeadNodYesSensor : MonoBehaviour
 				{
 					NodCount = 0;
 					Debug.Log("Yuuuup!");
-					animator.SetTrigger("thumbsup");
+					//animator.SetTrigger("thumbsup");
 				
 					if (UIConversationButton.Instance!=null)
-					 UIConversationButton.Instance.doHeadnodeYes();
+					ConversationManager.Instance.PressSelectedOption();
+					 //UIConversationButton.Instance.doHeadnodeYes();
 
 
 					if (AudioYes)

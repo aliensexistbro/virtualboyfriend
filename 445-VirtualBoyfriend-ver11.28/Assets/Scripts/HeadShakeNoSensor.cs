@@ -13,7 +13,7 @@ using DialogueEditor;
 public class HeadShakeNoSensor : MonoBehaviour
 {
 	public AudioSource AudioNo;
-	public Animator animator;
+	private Animator animator;
 
 	// how many left-rights until we say "you said no"
 	const float ShakeCountRequired = 6;
@@ -42,7 +42,7 @@ public class HeadShakeNoSensor : MonoBehaviour
 				//Debug.Log( "Timed out - SHAKE NO");
 				ShakeCount = 0;
 				LastDigitalShake = 0;
-				animator.ResetTrigger("clap");
+				//animator.ResetTrigger("clap");
 			}
 		}
 
@@ -85,10 +85,15 @@ public class HeadShakeNoSensor : MonoBehaviour
 				{
 					ShakeCount = 0;
 					Debug.Log("Nope!!");
-					animator.SetTrigger("clap");
+					//animator.SetTrigger("clap");
 					// TODO: perhaps inhibit sensing for a second or so?
-					if (UIConversationButton.Instance!=null)
-					 UIConversationButton.Instance.doHeadshakeNo();
+					if(UIConversationButton.Instance!=null && ConversationManager.Instance.IsConversationActive){
+						//ConversationManager.Instance.SetInt("headGesture",2);
+						//UIConversationButton.Instance.doHeadshakeNo();
+						ConversationManager.Instance.SelectNextOption();
+						ConversationManager.Instance.PressSelectedOption();
+						Debug.Log( "Nope!!");
+					}
 
 
 					if (AudioNo)

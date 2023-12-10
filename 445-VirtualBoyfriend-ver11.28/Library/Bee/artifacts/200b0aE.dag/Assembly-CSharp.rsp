@@ -376,6 +376,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/doorKnocker.cs"
 "Assets/Scripts/edibleCookie.cs"
+"Assets/Scripts/FPS_controller.cs"
 "Assets/Scripts/HeadNodYesSensor.cs"
 "Assets/Scripts/HeadShakeNoSensor.cs"
 "Assets/Scripts/ProgressBar.cs"
