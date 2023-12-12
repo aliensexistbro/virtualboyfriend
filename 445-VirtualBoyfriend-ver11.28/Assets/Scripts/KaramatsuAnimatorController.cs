@@ -9,7 +9,14 @@ public class KaramatsuAnimatorController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        karaController.SetTrigger(triggerName);
+        if(triggerName == "none")
+        {
+
+        }
+        else
+        {
+            karaController.SetTrigger(triggerName);
+        }
     }
 
     void ChangeAnimation(string triggerN)
