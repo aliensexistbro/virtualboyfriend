@@ -968,7 +968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e33e2209a478816459ac68e780ae675b, type: 3}
       propertyPath: m_Name
-      value: Female Sitting Pose
+      value: PlayerBody
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: e33e2209a478816459ac68e780ae675b, type: 3}
       propertyPath: m_Materials.Array.data[8]
@@ -3843,6 +3843,46 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317380779}
   m_Mesh: {fileID: -8411120397669513398, guid: 5c668a6e4d08d384b86daa493df2c503, type: 3}
+--- !u!1 &1487067861 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e33e2209a478816459ac68e780ae675b, type: 3}
+  m_PrefabInstance: {fileID: 449152704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1487067862
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487067861}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 0bb1efb9f8c44be4b856e3cac8f7ecd0, type: 3}
+  m_Controller: {fileID: 9100000, guid: 18c8bbc8bd0570d4384b5d2c074620bd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1487067863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487067861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063f04ef22698864f849b6f2b43560d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isIdle: 0
+  playerController: {fileID: 1487067862}
 --- !u!1 &1498398281
 GameObject:
   m_ObjectHideFlags: 0
@@ -4201,6 +4241,30 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: a32f00a7e87c024458a0e4c19b8f0831, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 763aadaae06c4094793a004a64241d61, type: 3}
+--- !u!1 &1654204372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 763aadaae06c4094793a004a64241d61, type: 3}
+  m_PrefabInstance: {fileID: 1654204371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1654204373 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 763aadaae06c4094793a004a64241d61, type: 3}
+  m_PrefabInstance: {fileID: 1654204371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1654204374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654204372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5e8046cc6b5684a86c146d317fe413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerName: laying_down
+  karaController: {fileID: 1654204373}
 --- !u!1 &1681945137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5397873883984373094, guid: f5afaf42951d65d4ba1aabe561a4757c, type: 3}

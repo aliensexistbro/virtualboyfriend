@@ -382,6 +382,8 @@
 "Assets/Scripts/FPS_controller.cs"
 "Assets/Scripts/HeadNodYesSensor.cs"
 "Assets/Scripts/HeadShakeNoSensor.cs"
+"Assets/Scripts/KaramatsuAnimatorController.cs"
+"Assets/Scripts/PlayerAnimatorController.cs"
 "Assets/Scripts/ProgressBar.cs"
 "Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/startConvo.cs"
