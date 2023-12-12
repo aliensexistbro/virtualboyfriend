@@ -7,6 +7,7 @@ public class ProgressBar : MonoBehaviour
 {
     private Slider slider;
     private bool affectionUp;
+    private static float affectionValue;
     private bool increased=false;
     private float fillProgress = 0.1f;
     public float defaultProgress;
@@ -15,6 +16,7 @@ public class ProgressBar : MonoBehaviour
     void Awake()
     {
         slider = gameObject.GetComponent<Slider>();
+        slider.value=affectionValue;
     }
     private void Hide()
     {
@@ -31,7 +33,9 @@ public class ProgressBar : MonoBehaviour
 
     private void Update()
     {   
+        affectionValue=slider.value;
         affectionUp=ConversationManager.Instance.GetBool("affectionIncrease");
+        //Debug.Log(slider.value);
         if(affectionUp&&!increased){
             Debug.Log("affection up");
             IncreaseBar(0.2f);
