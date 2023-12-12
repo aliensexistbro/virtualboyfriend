@@ -34,7 +34,7 @@ public class ProgressBar : MonoBehaviour
         affectionUp=ConversationManager.Instance.GetBool("affectionIncrease");
         if(affectionUp&&!increased){
             Debug.Log("affection up");
-            IncreaseBar(0.25f);
+            IncreaseBar(0.2f);
             affectionUp=false;
             increased=true;
         }
