@@ -76,6 +76,7 @@
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
     <Compile Include="Assets\Scripts\FPS_controller.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
+    <Compile Include="Assets\Scripts\LaserStart.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
     <Compile Include="Assets\Scripts\KaramatsuAnimatorController.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\Connection.cs" />
@@ -84,7 +85,7 @@
     <Compile Include="Assets\Scripts\doorKnocker.cs" />
     <Compile Include="Assets\Scripts\HeadShakeNoSensor.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
-    <Compile Include="Assets\Scripts\LaserStart.cs" />
+    <Compile Include="Assets\Scripts\LaserEnd.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI\DialogueEditor\TextMesh Pro\Shaders\TMPro.cginc" />

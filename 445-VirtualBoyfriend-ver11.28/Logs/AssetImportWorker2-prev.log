@@ -1,0 +1,835 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 31907 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Unity\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/10bit/Desktop/virtualboyfriend/445-VirtualBoyfriend-ver11.28
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59244
+Successfully changed project path to: C:/Users/10bit/Desktop/virtualboyfriend/445-VirtualBoyfriend-ver11.28
+C:/Users/10bit/Desktop/virtualboyfriend/445-VirtualBoyfriend-ver11.28
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25372] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 1360886774 [EditorId] 1360886774 [Version] 1048832 [Id] WindowsEditor(7,Fiona) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25372] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 1360886774 [EditorId] 1360886774 [Version] 1048832 [Id] WindowsEditor(7,Fiona) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 61.68 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path F:/Unity/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/10bit/Desktop/virtualboyfriend/445-VirtualBoyfriend-ver11.28/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'F:/Unity/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Unity/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001208 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 179 ms
+Refreshing native plugins compatible for Editor in 61.23 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (544ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (57ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (14ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (215ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (53ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004260 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\10bit\Desktop\virtualboyfriend\445-VirtualBoyfriend-ver11.28\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\10bit\Desktop\virtualboyfriend\445-VirtualBoyfriend-ver11.28\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 55.68 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.704 seconds
+Domain Reload Profiling:
+	ReloadAssembly (705ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3888 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (58.3 KB). Loaded Objects now: 4342.
+Memory consumption went from 146.8 MB to 146.7 MB.
+Total: 2.834400 ms (FindLiveObjects: 0.371700 ms CreateObjectMapping: 0.262800 ms MarkObjects: 2.120400 ms  DeleteObjects: 0.078700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 898320.965469 seconds.
+  path: Assets/SteamVR/Materials/workshop.mat
+  artifactKey: Guid(712cd3a70a5a1da41a6594aac6a97abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Materials/workshop.mat using Guid(712cd3a70a5a1da41a6594aac6a97abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3213f535411debdabe6713501f029fc9') in 0.105134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Textures/YelllowWall.mat
+  artifactKey: Guid(5031c09640037e7418cdd68e2b6b94ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures/YelllowWall.mat using Guid(5031c09640037e7418cdd68e2b6b94ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618df22e7f96157c5948ad0d5848bc8e') in 0.014852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Room/bed (1)/Materials/blanket 3.mat
+  artifactKey: Guid(94349db1c06017748bc1e3820653a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Room/bed (1)/Materials/blanket 3.mat using Guid(94349db1c06017748bc1e3820653a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c0e4d0a50ee30dc2c4186792dd8ac8') in 0.007888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/LivingRoomScene/designer-bookshelf-01c/source/model/model/model.dae
+  artifactKey: Guid(eeeca1182c236f1489b5929f29259d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/designer-bookshelf-01c/source/model/model/model.dae using Guid(eeeca1182c236f1489b5929f29259d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8fff04d26642a8ca357b1cc26c4153') in 0.054004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/BalloonPop.mat
+  artifactKey: Guid(2d01d8c885250364bac66a45791f02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/BalloonPop.mat using Guid(2d01d8c885250364bac66a45791f02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20af19283ac7ffc8eb297470be0829e') in 0.015264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/KaramatsuAnimation/Male Sitting Pose.fbx
+  artifactKey: Guid(b96d7ab2d6c2b0846b738eb95e48f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KaramatsuAnimation/Male Sitting Pose.fbx using Guid(b96d7ab2d6c2b0846b738eb95e48f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60974cb2a2064b88748efe86119a9783') in 0.031370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/LivingRoomScene/curtain/source/curtain final.fbx
+  artifactKey: Guid(f62068336f6862e4a8d8dcd5befd568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/curtain/source/curtain final.fbx using Guid(f62068336f6862e4a8d8dcd5befd568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5159c4f8a6c2f5996bfa118fb10ead41') in 0.045486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaHighlighted.mat
+  artifactKey: Guid(a8cac5516702311429fe7478ff4d7d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaHighlighted.mat using Guid(a8cac5516702311429fe7478ff4d7d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d77dd4018b04df18f97b0ca27e52cb') in 0.011464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Kitchen2/Cloth/Cloth.mat
+  artifactKey: Guid(256727b579960ff428ba738eec1830bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/Cloth/Cloth.mat using Guid(256727b579960ff428ba738eec1830bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d10e1738abe578269113112ff95ae2') in 0.010935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/LivingRoomScene/3d-anime-girl (1)/source/Sketchfab High Poly.fbx
+  artifactKey: Guid(602695770a668974c898094583021492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/3d-anime-girl (1)/source/Sketchfab High Poly.fbx using Guid(602695770a668974c898094583021492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8578c2de59667e81c4b2a7af89a8072') in 0.122040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Room/bed-01/source/Bed_01.obj
+  artifactKey: Guid(e24c2cff7cdd10841b307f1fcc45d357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Room/bed-01/source/Bed_01.obj using Guid(e24c2cff7cdd10841b307f1fcc45d357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590e94c506a01f3163de520449fc330e') in 0.022208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Outside/vintage-telephone/Materials/dial_2.mat
+  artifactKey: Guid(08f7e01625aaaef4d89ebb92dcf70e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Outside/vintage-telephone/Materials/dial_2.mat using Guid(08f7e01625aaaef4d89ebb92dcf70e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a7e1d8cceb6240a5249856057a48c8') in 0.008528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Outside/simple-japanese-house-1/source/jpHouse1.fbx
+  artifactKey: Guid(39c997c2c6cecba46851fc39cd6b189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Outside/simple-japanese-house-1/source/jpHouse1.fbx using Guid(39c997c2c6cecba46851fc39cd6b189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e769195915098476098a6c52450a34') in 0.017424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/LivingRoomScene/Carpet/Materials/CarpetTexture.mat
+  artifactKey: Guid(4129d839b7f09444480c81a0fe257065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/Carpet/Materials/CarpetTexture.mat using Guid(4129d839b7f09444480c81a0fe257065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6edf77417546563b94746b8b35ff646') in 0.025898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Outside/low-poly-wooden-tv-cabinet-6/source/tvcabinet6.fbx
+  artifactKey: Guid(13076dc0a4eb72643a6d61f9f09113aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Outside/low-poly-wooden-tv-cabinet-6/source/tvcabinet6.fbx using Guid(13076dc0a4eb72643a6d61f9f09113aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359b7bcd96244322940e3da72f4f3c6f') in 0.012037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Outside/japanese-traffic-assets/source/AssetSet01.fbx
+  artifactKey: Guid(15e23fa186ecba84e9602fa582af9aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Outside/japanese-traffic-assets/source/AssetSet01.fbx using Guid(15e23fa186ecba84e9602fa582af9aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6670a8fa6204342e43afc1a1c2b939') in 0.341142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteHighlightedOld.mat
+  artifactKey: Guid(c5a10ebcdfbfdfe4e94b37a089618ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteHighlightedOld.mat using Guid(c5a10ebcdfbfdfe4e94b37a089618ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89e36e03bde518d924c401d9df02d66') in 0.010554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Kitchen2/simple-teru-teru-bozu-rain-doll/source/TERUBOZU/terubozu/Materials/face.mat
+  artifactKey: Guid(71a47f7c06eb4b641b920c96df94710c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/simple-teru-teru-bozu-rain-doll/source/TERUBOZU/terubozu/Materials/face.mat using Guid(71a47f7c06eb4b641b920c96df94710c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4566eb3fa2c3eb3f104abd2741d9afe5') in 0.012309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/LivingRoomScene/LivingRoom2/japanese-machiya-set-kit/source/M_wood.mat
+  artifactKey: Guid(885732d7d6b993f468e6fd100b45c98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/LivingRoom2/japanese-machiya-set-kit/source/M_wood.mat using Guid(885732d7d6b993f468e6fd100b45c98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdc356ee068db32b0826cba9b0abb10') in 0.010156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Materials/JJHat.mat
+  artifactKey: Guid(782e025f2916bcc4eb141c1fb67c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Materials/JJHat.mat using Guid(782e025f2916bcc4eb141c1fb67c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f337753ac6e7f6b46481170f045f6e') in 0.019288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Materials/Furniture.mat
+  artifactKey: Guid(44849d41e6077f145a95f87372b6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Materials/Furniture.mat using Guid(44849d41e6077f145a95f87372b6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840b789f9261384ddadbbb9b1e15c0b7') in 0.022066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Materials/JoeJeff.mat
+  artifactKey: Guid(50cdd0e6236971841b9868ca3c32ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Materials/JoeJeff.mat using Guid(50cdd0e6236971841b9868ca3c32ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b7426c8b1888f26783982be494a813') in 0.016814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/TorchFire.mat
+  artifactKey: Guid(9fff76eb68ad4c44b87be9e2ca168a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/TorchFire.mat using Guid(9fff76eb68ad4c44b87be9e2ca168a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97247488841b6a6a634a76a7b567b11') in 0.010990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Squishy/Materials/Squish.mat
+  artifactKey: Guid(83d971dc1e971294db95113fe0ecbdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Squishy/Materials/Squish.mat using Guid(83d971dc1e971294db95113fe0ecbdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe5ae0f425493047f24e654bbe0ab39') in 0.057658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Hints/Materials/ControllerTextHintLine.mat
+  artifactKey: Guid(fa05b1dac59aa764184da0aba83b2bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Hints/Materials/ControllerTextHintLine.mat using Guid(fa05b1dac59aa764184da0aba83b2bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c2e5317a2cbf56ec461d2d107dada7') in 0.007974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/LivingRoomScene/LivingRoom2/japanese-machiya-set-kit/Materials/M_wood.mat
+  artifactKey: Guid(6814cedc1bee353458d25d89b5ddf999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/LivingRoom2/japanese-machiya-set-kit/Materials/M_wood.mat using Guid(6814cedc1bee353458d25d89b5ddf999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7f8ff00b7c0ef04f2c6f24248960de') in 0.008979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Materials/fabric 1.mat
+  artifactKey: Guid(be0b1dee5fea4ea40909e542a9a5fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Materials/fabric 1.mat using Guid(be0b1dee5fea4ea40909e542a9a5fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3e1738338d13993e9a9659b1bdd1bf') in 0.010210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Textures/Mirror.mat
+  artifactKey: Guid(ee63a67ad07ed894a8665ade33f67f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures/Mirror.mat using Guid(ee63a67ad07ed894a8665ade33f67f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b65546aae1d0ba58989649d556d873b') in 0.008263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointHighlighted.mat
+  artifactKey: Guid(92c458d658d953f4588489c06de30b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointHighlighted.mat using Guid(92c458d658d953f4588489c06de30b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32deea6b2bb4260c4e7fb8efb730878b') in 0.008894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/dudeTestAnimations/Sitting Idle.fbx
+  artifactKey: Guid(8530bb00ccfbf7449a47303fe7747b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dudeTestAnimations/Sitting Idle.fbx using Guid(8530bb00ccfbf7449a47303fe7747b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721561fc4f27d1e328f064f67977ca96') in 0.018735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Female Sitting Pose.fbx
+  artifactKey: Guid(ff3b96c1ecdd7ec4ea9a49ab6f857dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Female Sitting Pose.fbx using Guid(ff3b96c1ecdd7ec4ea9a49ab6f857dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8b61d67e301232e8b8ce0ff0f6fd9b') in 0.107736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Kitchen2/kitchen-table/Materials/desk_hoff.mat
+  artifactKey: Guid(e3827310d36a10944a47b23c8b9f145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/kitchen-table/Materials/desk_hoff.mat using Guid(e3827310d36a10944a47b23c8b9f145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51843db6082edff90b025c70fa85106e') in 0.010030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPlaySpace.mat
+  artifactKey: Guid(1d3d8159663c8c94cbf05cd6b9d686b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPlaySpace.mat using Guid(1d3d8159663c8c94cbf05cd6b9d686b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ab26f0e903a47e61c1ec70a363ca25') in 0.008669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/LivingRoomScene/bookshelf (1)/Materials/Yellow.mat
+  artifactKey: Guid(6a63afc32183f7d4fb005a0ee75e7028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/bookshelf (1)/Materials/Yellow.mat using Guid(6a63afc32183f7d4fb005a0ee75e7028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40e244519f7899d4f698c877fb3310e') in 0.012719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/LivingRoomScene/low-poly-bookshelf-set/source/Bookshelf Set.fbx
+  artifactKey: Guid(de5f7a986fd61c445b726d8009c41c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/low-poly-bookshelf-set/source/Bookshelf Set.fbx using Guid(de5f7a986fd61c445b726d8009c41c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5e485d540956fa760e1a57aafdd05f') in 0.038936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaHighlightedLow.mat
+  artifactKey: Guid(ec3dc73cf20a842438065d10e72e1b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaHighlightedLow.mat using Guid(ec3dc73cf20a842438065d10e72e1b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f3d41ef8ac136cc316e2e49e4cbadb') in 0.007383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Kitchen2/dish-rack-with-dishes/source/DishRack.fbx
+  artifactKey: Guid(d6a8bc88d72fc5848ba3e9a219dad7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/dish-rack-with-dishes/source/DishRack.fbx using Guid(d6a8bc88d72fc5848ba3e9a219dad7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9301e82d7704ba6b0ffbcbc2bfe1f9e9') in 0.049838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointHighlighted.mat
+  artifactKey: Guid(f71819766ca687246a2150260bcfc1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportPointHighlighted.mat using Guid(f71819766ca687246a2150260bcfc1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4269b85b3d6aefb447ed6aac05928c') in 0.007547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteHand.mat
+  artifactKey: Guid(5ebf65e069a3d3f4bbb68b42e5c4840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/ShinyWhiteHand.mat using Guid(5ebf65e069a3d3f4bbb68b42e5c4840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41972254ba70f7859a7c3163a10f9cd6') in 0.008789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Textures/Sidewalk.mat
+  artifactKey: Guid(e8e01a4b5b81e2049aa43b64d35d56dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures/Sidewalk.mat using Guid(e8e01a4b5b81e2049aa43b64d35d56dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4715462d97ee5f42ec0828107b126965') in 0.008394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Kitchen2/stove-asset-home-appliances/source/Stove/Stove.fbx
+  artifactKey: Guid(a4fb8724b2b14b549ba7c392cc24c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/stove-asset-home-appliances/source/Stove/Stove.fbx using Guid(a4fb8724b2b14b549ba7c392cc24c968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49cc169f8f077136fecdbd4c30f103a') in 0.015729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaVisibleLow.mat
+  artifactKey: Guid(5f0129f65bc822d429cfad1b63fb9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaVisibleLow.mat using Guid(5f0129f65bc822d429cfad1b63fb9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e9b565b6ec05c1cd419ccf1d2dba14') in 0.007464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/LivingRoomScene/street-wall-light-high-poly/source/Lampe_HighPoly.fbx
+  artifactKey: Guid(59bce46ea2750804c929f148e5f6c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/street-wall-light-high-poly/source/Lampe_HighPoly.fbx using Guid(59bce46ea2750804c929f148e5f6c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc4ae7f692a7800a22bef7399d5b88f') in 0.011338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Kitchen2/kitchen-table/source/render.fbx
+  artifactKey: Guid(841df99b28aae3748b9a9be82a85c653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/kitchen-table/source/render.fbx using Guid(841df99b28aae3748b9a9be82a85c653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0c9def5ec2684cf8864160f37e76c3') in 0.015610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Room/futon/source/futon.obj
+  artifactKey: Guid(404e280cf05ed3446a31d3f6c368ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Room/futon/source/futon.obj using Guid(404e280cf05ed3446a31d3f6c368ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf7ce77864709da41f963f032962398') in 0.025783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Kitchen2/cc0-sponge-3/source/Sponge3.fbx
+  artifactKey: Guid(c1eec45a05aa64443b5c04acba270cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/cc0-sponge-3/source/Sponge3.fbx using Guid(c1eec45a05aa64443b5c04acba270cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c472229fd42a0f80cc1f13048437e593') in 0.023884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointInvalid.mat
+  artifactKey: Guid(69cf60201b6b1c447825fbb5f8d2240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointInvalid.mat using Guid(69cf60201b6b1c447825fbb5f8d2240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a05179db86c55b20af6391b697dc12') in 0.007488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/LivingRoomScene/cone/Materials/Cone_Diffuse.mat
+  artifactKey: Guid(4fe86b02b60d99d4686ab37a094e49b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/cone/Materials/Cone_Diffuse.mat using Guid(4fe86b02b60d99d4686ab37a094e49b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4922a9a102e9a83adbaa6be736773c3e') in 0.010773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Kitchen2/ToteBag/Materials/M_0_EMP (SBH) 27E_BaseColor.mat
+  artifactKey: Guid(b44eba264e326f445a849a8c266b572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/ToteBag/Materials/M_0_EMP (SBH) 27E_BaseColor.mat using Guid(b44eba264e326f445a849a8c266b572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d9a076ae866e9db174c7c6a0fdcdcc') in 0.011922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Outside/simple-japanese-house-1/Materials/JP-House-Assets_low_MAT_JPHouse_BaseColor..mat
+  artifactKey: Guid(d4254d560d0f6754694e34233457e33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Outside/simple-japanese-house-1/Materials/JP-House-Assets_low_MAT_JPHouse_BaseColor..mat using Guid(d4254d560d0f6754694e34233457e33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a744bfa7c99193f9d910b9ec6ac49f') in 0.016263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/Models/Materials/vr_glove_color.mat
+  artifactKey: Guid(cbe636ca800df264c9fb91dc95fbd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Models/Materials/vr_glove_color.mat using Guid(cbe636ca800df264c9fb91dc95fbd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00daa14b1f61de90bc165304603911ff') in 0.020694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Room/bed (1)/source/Bed.fbx
+  artifactKey: Guid(1034256825efa1742bddb2cf4aaba63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Room/bed (1)/source/Bed.fbx using Guid(1034256825efa1742bddb2cf4aaba63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bb5a2236b9cbcc346ae838c1082999') in 0.109007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleLow.mat
+  artifactKey: Guid(50e5b65061d0b044da1bfd0dc52d912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleLow.mat using Guid(50e5b65061d0b044da1bfd0dc52d912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded1632679da7e33d3d71fef837f71bb') in 0.009690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Materials/BuggyController.mat
+  artifactKey: Guid(8429e69bebe55ae4392d143cc550134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Materials/BuggyController.mat using Guid(8429e69bebe55ae4392d143cc550134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3f104b1eb885a87104b8a1b025a3da') in 0.025294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Room/futon/source/Materials/wallpaper-japanese-pink-flowers.mat
+  artifactKey: Guid(5debfef8e71f7634a8848dc1777252c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Room/futon/source/Materials/wallpaper-japanese-pink-flowers.mat using Guid(5debfef8e71f7634a8848dc1777252c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3806030b4f76bc20e5446d4b6fb17e3') in 0.008289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaHighlightedBright.mat
+  artifactKey: Guid(42e2d33cb8e988945826a8a0f5c0f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaHighlightedBright.mat using Guid(42e2d33cb8e988945826a8a0f5c0f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4604abc5f39b173fad0c134669bdc078') in 0.008839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Kitchen2/cookware-set/source/conjunto_de_panelas_post.fbx
+  artifactKey: Guid(622cf70bcb1339d44a5cae335b72dfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/cookware-set/source/conjunto_de_panelas_post.fbx using Guid(622cf70bcb1339d44a5cae335b72dfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b079f3bcbd0d4a60e2b72ef66402a293') in 0.029002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Outside/diplom-draft-japanese-houses/source/Diplom/Draft_diplom.fbx
+  artifactKey: Guid(68531541b2e6b8141bf2140492db50cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Outside/diplom-draft-japanese-houses/source/Diplom/Draft_diplom.fbx using Guid(68531541b2e6b8141bf2140492db50cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9517d3ce12bf6cb729cb2f16a13c9d47') in 0.486573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Kitchen2/toaster (1)/source/toaster.fbx
+  artifactKey: Guid(074411da87aa5b146bb32670370c564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/toaster (1)/source/toaster.fbx using Guid(074411da87aa5b146bb32670370c564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896faba2abdbc744be7cc90f5499f765') in 0.113195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaLocked.mat
+  artifactKey: Guid(0fe9e4228ebb3bc469ead815cd305d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaLocked.mat using Guid(0fe9e4228ebb3bc469ead815cd305d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffdee8a4f274c446e12028280b6f7f4') in 0.007897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/dudeTestAnimations/Idle.fbx
+  artifactKey: Guid(781c0c49ed948774c9d0f2389ba72d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dudeTestAnimations/Idle.fbx using Guid(781c0c49ed948774c9d0f2389ba72d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c135d3e4ef0906d2efa8b34e60e237b') in 0.016092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SteamVR/Models/Materials/knuckles_right.mat
+  artifactKey: Guid(dc89eae32e82ada4b873dd07678c67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Models/Materials/knuckles_right.mat using Guid(dc89eae32e82ada4b873dd07678c67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4c03e6e8d31a29861af183d216e5b5') in 0.007732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleBright.mat
+  artifactKey: Guid(7ec109995bd12834794f8eebaf1e7d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleBright.mat using Guid(7ec109995bd12834794f8eebaf1e7d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb70aacc1aeee0e02dbaa4ad64c2bbd') in 0.007225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/flowerMat.mat
+  artifactKey: Guid(0308a1af4b58be146947cb7f05f0b7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/flowerMat.mat using Guid(0308a1af4b58be146947cb7f05f0b7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c3e4306e6866ce31e70dabc8f2916c') in 0.006232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/MeasurementLine.mat
+  artifactKey: Guid(7541a5776f7b9844c9a765c45f6e0940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/MeasurementLine.mat using Guid(7541a5776f7b9844c9a765c45f6e0940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b58a7be8d3726faf9c16fb28198f18') in 0.010332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/DialogueEditor/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/DialogueEditor/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0e5e856f25d01a1d9fe60d83b30a07') in 0.043459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/LivingRoomScene/cone/source/0660621b196e419c84829db0ced6bba9/Cone.fbx
+  artifactKey: Guid(99cc73245fb37c74fac04f68ad83f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/cone/source/0660621b196e419c84829db0ced6bba9/Cone.fbx using Guid(99cc73245fb37c74fac04f68ad83f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b346525bfe2c4f42138c616342066d2') in 0.017052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/dudeTestAnimations/Shaking Head No.fbx
+  artifactKey: Guid(2d7cdae01e9cccc448787447a577def6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dudeTestAnimations/Shaking Head No.fbx using Guid(2d7cdae01e9cccc448787447a577def6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6ff733f2a7de7e85d2a8e9d7fd425a') in 0.017535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/LivingRoomScene/leaves-110-bc/source/110_kotatsu_BC/Leaves_110_kotatsu_BC.fbx
+  artifactKey: Guid(f87e27a54407d734db6d7131f75fab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene/leaves-110-bc/source/110_kotatsu_BC/Leaves_110_kotatsu_BC.fbx using Guid(f87e27a54407d734db6d7131f75fab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d22a7136a3dafb60ed7f3e61bffc0c') in 0.102757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaLocked.mat
+  artifactKey: Guid(f6802bd638faedf4dbe4a57c1f222991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaLocked.mat using Guid(f6802bd638faedf4dbe4a57c1f222991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589e3d11af93849f19111b1568f61787') in 0.008278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/URPflowerMatOp.mat
+  artifactKey: Guid(ac9d55e9d2534df40a84030248c00fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/URPflowerMatOp.mat using Guid(ac9d55e9d2534df40a84030248c00fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e951df3b6ce94d3201bce50e219aad82') in 0.008855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Kitchen2/cookies/Materials/hedgehog.mat
+  artifactKey: Guid(3625fc865033d2b4e8e4d8561baa32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kitchen2/cookies/Materials/hedgehog.mat using Guid(3625fc865033d2b4e8e4d8561baa32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e452fa14ebdc32f68a6bdb236785bc1') in 0.011066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Textures/BowlTexture.mat
+  artifactKey: Guid(9f4be3875eb00564cb3391e7b045808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Textures/BowlTexture.mat using Guid(9f4be3875eb00564cb3391e7b045808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f9a7ec00c4566ce3c8dd91fdde61df') in 0.008799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Room/bed (1)/Materials/blanket.mat
+  artifactKey: Guid(a06cf08c4ee326b49ba7e7c710e35902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Room/bed (1)/Materials/blanket.mat using Guid(a06cf08c4ee326b49ba7e7c710e35902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978bc23c864f3de8f1e1404cc78075d4') in 0.012249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/dudeTestAnimations/Hard Head Nod.fbx
+  artifactKey: Guid(81048f067ce3ab747b4f65df411461ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dudeTestAnimations/Hard Head Nod.fbx using Guid(81048f067ce3ab747b4f65df411461ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153724ada29f2dc0d4168b93e42bbf69') in 0.018988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Core/Materials/SeeThru.mat
+  artifactKey: Guid(3bbb445147c574240a8b87a1193788b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Core/Materials/SeeThru.mat using Guid(3bbb445147c574240a8b87a1193788b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8d62d5c70bd232342c9aa65ff60226') in 0.006113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/Subway/81-780/Materials/81-760_int.mat
+  artifactKey: Guid(a1f0812843f949a46a5a3baf9236510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Subway/81-780/Materials/81-760_int.mat using Guid(a1f0812843f949a46a5a3baf9236510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2920ae104dc996ff85992270adc2e7') in 0.012800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/floor far.mat
+  artifactKey: Guid(f841239f1ca9b4941918db7c8d5ccb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/floor far.mat using Guid(f841239f1ca9b4941918db7c8d5ccb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e5c0854fe1cd1dd00c435769bb460b') in 0.141580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.753167 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(3fdbe3bf935f37343a6c797b4f50815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(3fdbe3bf935f37343a6c797b4f50815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a948cbf74c3f2363ce4f37f5fae4fca8') in 0.005581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.868993 seconds.
+  path: Assets/Scripts/LaserStart.cs
+  artifactKey: Guid(9e57c4a17df66754bb234c275dd2add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LaserStart.cs using Guid(9e57c4a17df66754bb234c275dd2add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856b8ffe80b13ff2d942557e9b1c127') in 0.010101 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004216 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\10bit\Desktop\virtualboyfriend\445-VirtualBoyfriend-ver11.28\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\10bit\Desktop\virtualboyfriend\445-VirtualBoyfriend-ver11.28\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (586ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.54 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3844 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (25.7 KB). Loaded Objects now: 4394.
+Memory consumption went from 161.4 MB to 161.4 MB.
+Total: 2.846600 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.493200 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.909902 seconds.
+  path: Assets/Scripts/LaserStart.cs
+  artifactKey: Guid(9e57c4a17df66754bb234c275dd2add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LaserStart.cs using Guid(9e57c4a17df66754bb234c275dd2add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02157347c91292f5d4af725a045b14a2') in 0.006543 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005415 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\10bit\Desktop\virtualboyfriend\445-VirtualBoyfriend-ver11.28\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\10bit\Desktop\virtualboyfriend\445-VirtualBoyfriend-ver11.28\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.87 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3844 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (25.6 KB). Loaded Objects now: 4398.
+Memory consumption went from 161.4 MB to 161.4 MB.
+Total: 2.330600 ms (FindLiveObjects: 0.259300 ms CreateObjectMapping: 0.073100 ms MarkObjects: 1.975100 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13.300312 seconds.
+  path: Assets/Scripts/LaserStart.cs
+  artifactKey: Guid(9e57c4a17df66754bb234c275dd2add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LaserStart.cs using Guid(9e57c4a17df66754bb234c275dd2add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92459adac56ca9df21a3e3011d15794d') in 0.006176 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004829 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\10bit\Desktop\virtualboyfriend\445-VirtualBoyfriend-ver11.28\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\10bit\Desktop\virtualboyfriend\445-VirtualBoyfriend-ver11.28\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (626ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.25 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3844 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (25.8 KB). Loaded Objects now: 4402.
+Memory consumption went from 161.4 MB to 161.4 MB.
+Total: 2.111200 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.800200 ms  DeleteObjects: 0.026600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

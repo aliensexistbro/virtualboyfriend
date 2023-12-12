@@ -383,6 +383,7 @@
 "Assets/Scripts/HeadNodYesSensor.cs"
 "Assets/Scripts/HeadShakeNoSensor.cs"
 "Assets/Scripts/KaramatsuAnimatorController.cs"
+"Assets/Scripts/LaserEnd.cs"
 "Assets/Scripts/LaserStart.cs"
 "Assets/Scripts/PlayerAnimatorController.cs"
 "Assets/Scripts/ProgressBar.cs"
