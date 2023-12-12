@@ -22,11 +22,17 @@ public class KaramatsuAnimatorController : MonoBehaviour
 
     void Update(){
          if(UIConversationButton.Instance!=null){
+            Debug.Log("welcome animation");
             if(ConversationManager.Instance.GetBool("SceneStart")){
                 ChangeAnimation("welcome");
                 cookies.SetActive(true);
             }
          }
+
+        if (ConversationManager.Instance.GetBool("laying_down"))
+        {
+            ChangeAnimation("laying_down");
+        }
     }
 
     void ChangeAnimation(string triggerN)

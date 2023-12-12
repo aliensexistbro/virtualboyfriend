@@ -11,12 +11,13 @@ public class edibleCookie : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("cookie"))
-        {   
-            if(UIConversationButton.Instance!=null)
+        {
+            if (UIConversationButton.Instance != null) 
                 ConversationManager.Instance.SetBool("CookieEaten", true);
             eatsfx.Play();
             Debug.Log("cookie entered trigger");
             Destroy(cookie);
+                
         }
     }
 }

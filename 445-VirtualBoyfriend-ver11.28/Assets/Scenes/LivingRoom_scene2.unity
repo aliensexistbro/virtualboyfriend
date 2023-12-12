@@ -972,7 +972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e33e2209a478816459ac68e780ae675b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: e33e2209a478816459ac68e780ae675b, type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -2613,6 +2613,17 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: a32f00a7e87c024458a0e4c19b8f0831, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 763aadaae06c4094793a004a64241d61, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'DEF-f_pinky.01.L'\n\tTransform 'DEF-spine.002'\n\tTransform
+        'DEF-f_pinky.03.R'\n\tTransform 'DEF-f_pinky.02.R'\n\tTransform 'DEF-shoulder.R'\n\tTransform
+        'DEF-f_index.02.R'\n\tTransform 'DEF-neck'\n\tTransform 'DEF-thumb.01.L'\n\tTransform
+        'DEF-spine.003'\n\tTransform 'DEF-upper_arm.L'\n\tand more ...\n\tFrom animation
+        clip 'mixamo.com'\n\tFrom animation clip 'mixamo.com'\n\tFrom animation clip
+        'mixamo.com'"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 763aadaae06c4094793a004a64241d61, type: 3}
 --- !u!4 &794871584 stripped
@@ -2995,15 +3006,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 15
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":52.75,\"yPos\":185},\"ID\":11,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"affectionIncrease\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Nod
-    Head Yes\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":302.75,\"yPos\":185},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Shake
-    Head No\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"SceneChangeReady\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"affectionIncrease\",\"BoolValue\":false}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":191,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Mm\u2026
-    can I lie down a little? \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Karamatsu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":19.75,\"yPos\":357},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    like you so much\u2026 \",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Karamatsu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":358.75,\"yPos\":363},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fair
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":115.75,\"yPos\":187},\"ID\":11,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"affectionIncrease\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"laying_down\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Nod
+    Head Yes\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":367.75,\"yPos\":185},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Shake
+    Head No\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"SceneChangeReady\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"affectionIncrease\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"laying_down\",\"BoolValue\":false}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":256,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Mm\u2026
+    can I lie down a little? \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Karamatsu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":84.75,\"yPos\":357},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    like you so much\u2026 \",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Karamatsu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":423.75,\"yPos\":363},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fair
     enough, honey. You must be so tired. My poor baby\u2026 I\u2019m here for you
-    now. Whatever makes you feel comfiest. \",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Karamatsu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":17.75,\"yPos\":510},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It
+    now. Whatever makes you feel comfiest. \",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Karamatsu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":82.75,\"yPos\":510},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It
     almost feels sinful to be so comfortable and close to you like this\u2026 I really
-    am a lucky guy, huh. Thank you, my Karamatsu girl. \",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Karamatsu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":318.5,\"yPos\":697},\"ID\":13,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"SceneChangeReady\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[7,10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    am a lucky guy, huh. Thank you, my Karamatsu girl. \",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Karamatsu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":383.5,\"yPos\":697},\"ID\":13,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"SceneChangeReady\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[7,10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: Karamatsu
   DefaultSprite: {fileID: 0}
@@ -3816,7 +3827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1271489508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4504,43 +4515,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.708
+      value: -2.151
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7935227
+      value: 0.387
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.5434146
+      value: -3.588
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99419534
+      value: 0.7417109
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.107589886
+      value: -0.010371274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.6706216
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.004909506
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -12.353
+      value: -1.259
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -84.241
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: -8400574185653566456, guid: 763aadaae06c4094793a004a64241d61, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4558,6 +4569,16 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: a32f00a7e87c024458a0e4c19b8f0831, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 763aadaae06c4094793a004a64241d61, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'DEF-f_pinky.01.L'\n\tTransform 'DEF-spine.002'\n\tTransform
+        'DEF-f_pinky.03.R'\n\tTransform 'DEF-f_pinky.02.R'\n\tTransform 'DEF-shoulder.R'\n\tTransform
+        'DEF-f_index.02.R'\n\tTransform 'DEF-neck'\n\tTransform 'DEF-thumb.01.L'\n\tTransform
+        'DEF-spine.003'\n\tTransform 'DEF-upper_arm.L'\n\tand more ...\n\tFrom animation
+        clip 'mixamo.com'\n\tFrom animation clip 'mixamo.com'"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 763aadaae06c4094793a004a64241d61, type: 3}
 --- !u!1 &1654204372 stripped
@@ -4582,7 +4603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5e8046cc6b5684a86c146d317fe413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerName: laying_down
+  triggerName: situp
   karaController: {fileID: 1654204373}
   cookies: {fileID: 0}
 --- !u!1 &1681945137 stripped
