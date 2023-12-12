@@ -34,7 +34,8 @@ public class ProgressBar : MonoBehaviour
     private void Update()
     {   
         affectionValue=slider.value;
-        affectionUp=ConversationManager.Instance.GetBool("affectionIncrease");
+         if(UIConversationButton.Instance!=null)
+            affectionUp=ConversationManager.Instance.GetBool("affectionIncrease");
         //Debug.Log(slider.value);
         if(affectionUp&&!increased){
             Debug.Log("affection up");

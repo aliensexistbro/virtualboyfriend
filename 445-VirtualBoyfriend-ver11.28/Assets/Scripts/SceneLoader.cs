@@ -26,7 +26,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("playing");
     }
     public void Update(){
-        if(ConversationManager.Instance.IsConversationActive)
+         if(UIConversationButton.Instance!=null)
             sceneReady=ConversationManager.Instance.GetBool("SceneChangeReady");
 
         if(sceneReady){
