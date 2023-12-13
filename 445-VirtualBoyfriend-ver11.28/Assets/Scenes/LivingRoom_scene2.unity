@@ -2651,6 +2651,7 @@ MonoBehaviour:
   triggerName: situp
   karaController: {fileID: 796263986}
   cookies: {fileID: 0}
+  karaModel: {fileID: 0}
 --- !u!95 &796263986 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 763aadaae06c4094793a004a64241d61, type: 3}
@@ -4606,6 +4607,7 @@ MonoBehaviour:
   triggerName: situp
   karaController: {fileID: 1654204373}
   cookies: {fileID: 0}
+  karaModel: {fileID: 1654204372}
 --- !u!1 &1681945137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5397873883984373094, guid: f5afaf42951d65d4ba1aabe561a4757c, type: 3}

@@ -7,10 +7,12 @@ public class KaramatsuAnimatorController : MonoBehaviour
     public string triggerName;
     public Animator karaController;
     public GameObject cookies;
+    public GameObject karaModel;
+
     // Start is called before the first frame update
     void Start()
     {
-        if(triggerName == "none")
+        if (triggerName == "none")
         {
 
         }
@@ -31,6 +33,8 @@ public class KaramatsuAnimatorController : MonoBehaviour
 
         if (ConversationManager.Instance.GetBool("laying_down"))
         {
+            karaModel.transform.Rotate(0f, 90f, 0f);
+            karaModel.transform.position = new Vector3(-1.7788f, 0.4009f, -3.4847f);
             ChangeAnimation("laying_down");
         }
     }
