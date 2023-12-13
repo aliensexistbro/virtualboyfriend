@@ -8,6 +8,7 @@ public class KaramatsuAnimatorController : MonoBehaviour
     public Animator karaController;
     public GameObject cookies;
     public GameObject karaModel;
+    private bool laydown = true;
 
     // Start is called before the first frame update
     void Start()
@@ -45,10 +46,11 @@ public class KaramatsuAnimatorController : MonoBehaviour
 
       
 
-            if (ConversationManager.Instance.GetBool("laying_down"))
+            if (ConversationManager.Instance.GetBool("laying_down") && laydown)
             {
+                laydown = false;
                 karaModel.transform.Rotate(0f, 90f, 0f);
-                karaModel.transform.position = new Vector3(-1.7788f, 0.4009f, -3.4847f);
+                karaModel.transform.position = new Vector3(-1.7788f, 0.8409f, -3.1847f);
                 ChangeAnimation("laying_down");
             } 
         

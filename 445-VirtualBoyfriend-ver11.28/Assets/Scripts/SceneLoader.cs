@@ -12,6 +12,8 @@ public class SceneLoader : MonoBehaviour
     private bool sceneReady=false;
     float secondsLeft = 0;
     // Update is called once per frame
+    public GameObject hand;
+
     public void ExitGame()
     {
         Application.Quit();
@@ -38,6 +40,7 @@ public class SceneLoader : MonoBehaviour
     public void LoadScene()
     {
         StartCoroutine(FadeScene(sceneName));
+        Destroy(hand);
         Debug.Log("playing");
     }
 
