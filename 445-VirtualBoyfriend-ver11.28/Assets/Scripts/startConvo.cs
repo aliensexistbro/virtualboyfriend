@@ -13,7 +13,7 @@ public class startConvo : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         if(other.CompareTag("Player")){  
             ConversationManager.Instance.StartConversation(myConvo);
-
+            ConversationManager.Instance.SetBool("SceneStart", true);
         }
     }
 }
