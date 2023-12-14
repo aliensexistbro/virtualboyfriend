@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\startscript.cs" />
     <Compile Include="Assets\Scripts\LaserEnd.cs" />
     <Compile Include="Assets\Scripts\ProgressBar.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\Condition.cs" />
     <Compile Include="Assets\Scripts\subwayScene.cs" />
+    <Compile Include="Assets\endgame.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\Parameter.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\EditableNode.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
