@@ -36,15 +36,20 @@ public class ProgressBar : MonoBehaviour
         affectionValue=slider.value;
          if(UIConversationButton.Instance!=null)
             affectionUp=ConversationManager.Instance.GetBool("affectionIncrease");
-        //Debug.Log(slider.value);
         if(affectionUp&&!increased){
             Debug.Log("affection up");
             IncreaseBar(0.2f);
             affectionUp=false;
             increased=true;
+            Debug.Log(slider.value);
         }
         if (slider.value < target)
             slider.value += fillProgress * Time.deltaTime;
+
+        if(slider.value>=0.4f){
+            Debug.Log("affection full");
+            ConversationManager.Instance.SetBool("affectionEnough",true);
+        }
     }
     void IncreaseBar(float progress)
     {

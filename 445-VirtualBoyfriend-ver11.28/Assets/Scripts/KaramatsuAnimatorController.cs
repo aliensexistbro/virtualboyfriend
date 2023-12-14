@@ -8,7 +8,9 @@ public class KaramatsuAnimatorController : MonoBehaviour
     public Animator karaController;
     public GameObject cookies;
     public GameObject karaModel;
+    public GameObject handCollider;
     private bool laydown = true;
+    public bool bedTime;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +26,10 @@ public class KaramatsuAnimatorController : MonoBehaviour
     }
 
     void Update(){
-        
+         if(bedTime){
+                ChangeAnimation("bedtime");
+            }
+
         if(ConversationManager.Instance.IsConversationActive){
             // Debug.Log("welcome animation");
             if(ConversationManager.Instance.GetBool("SceneStart")){
@@ -43,6 +48,25 @@ public class KaramatsuAnimatorController : MonoBehaviour
               if(ConversationManager.Instance.GetBool("getInside")){
                 ChangeAnimation("getinside");
             }
+             if(ConversationManager.Instance.GetBool("sinfulRequest")){
+                ChangeAnimation("sinfulrequest");
+            }
+            if(ConversationManager.Instance.GetBool("handHold")){
+                handCollider.SetActive(true);
+                ChangeAnimation("handhold1");
+            }
+            if(ConversationManager.Instance.GetBool("kiss")){
+                ChangeAnimation("kiss");
+            }
+              if(ConversationManager.Instance.GetBool("noSinning")){
+                ChangeAnimation("no_sinning");
+            }
+              if(ConversationManager.Instance.GetBool("goodNight")){
+                ChangeAnimation("gn");
+            }
+            
+            
+            
 
       
 
