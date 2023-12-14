@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.026390323, g: 0.039330903, b: 0.08489059, a: 1}
+  m_IndirectSpecularColor: {r: 0.026402729, g: 0.039362825, b: 0.08493725, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -323,7 +323,7 @@ Transform:
   - {fileID: 2081556000}
   - {fileID: 1756891185}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &55398926
 GameObject:
@@ -356,7 +356,7 @@ Transform:
   - {fileID: 2097153227}
   - {fileID: 8738389}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &77114808
 GameObject:
@@ -1355,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Duvet
       objectReference: {fileID: 0}
+    - target: {fileID: 7058971531863114692, guid: 65883b7cf413b1f469a611bd7e5feab0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9126400894571875292, guid: 65883b7cf413b1f469a611bd7e5feab0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1377,11 +1381,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9126400894571875292, guid: 65883b7cf413b1f469a611bd7e5feab0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.43
+      value: 0.511
       objectReference: {fileID: 0}
     - target: {fileID: 9126400894571875292, guid: 65883b7cf413b1f469a611bd7e5feab0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.30877924
+      value: 0.407
       objectReference: {fileID: 0}
     - target: {fileID: 9126400894571875292, guid: 65883b7cf413b1f469a611bd7e5feab0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1749,7 +1753,7 @@ MonoBehaviour:
   NodeID: 15
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: 14f26df202d9fb04b8e425d3ca1e2900, type: 3}
 --- !u!114 &646948301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1768,7 +1772,7 @@ MonoBehaviour:
   NodeID: 14
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: d7d6c1339f43d964ea7a6d031ff91db4, type: 3}
 --- !u!114 &646948302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1863,7 +1867,7 @@ MonoBehaviour:
   NodeID: 18
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
-  Audio: {fileID: 0}
+  Audio: {fileID: 8300000, guid: 904a9450c46fef04eb57813f561ce281, type: 3}
 --- !u!1 &660476969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,7 +2011,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &668771779
 MonoBehaviour:
@@ -2193,6 +2197,100 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &701930925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 701930927}
+  - component: {fileID: 701930926}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &701930926
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701930925}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_Range: 20
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &701930927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701930925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.461, y: 1.213, z: -8.925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &757000135
 GameObject:
   m_ObjectHideFlags: 0
@@ -2333,7 +2431,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &760383567
 PrefabInstance:
@@ -2344,7 +2442,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b2cf2d0a6dc39834da4a4d02606887e5, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b2cf2d0a6dc39834da4a4d02606887e5, type: 3}
       propertyPath: m_LocalScale.x
@@ -2531,7 +2629,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &817689474
 GameObject:
@@ -2941,7 +3039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &922476820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2994,7 +3092,7 @@ Transform:
   m_Children:
   - {fileID: 872605818}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: -86.636, z: 0}
 --- !u!1 &967159535
 GameObject:
@@ -3460,7 +3558,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
       propertyPath: m_LocalScale.x
@@ -3476,7 +3574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.519
+      value: -3.474
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3484,7 +3582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.197
+      value: -4.192
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3527,11 +3625,6 @@ PrefabInstance:
 --- !u!1 &1124468998 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
-  m_PrefabInstance: {fileID: 1124468997}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1124468999 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -2686246092878662770, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
   m_PrefabInstance: {fileID: 1124468997}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1124469000
@@ -3579,24 +3672,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!64 &1124469002
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124468999}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!4 &1124469003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
   m_PrefabInstance: {fileID: 1124468997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1125504513 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+  m_PrefabInstance: {fileID: 1377127706}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1151089931
 GameObject:
@@ -4242,7 +4326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 429506, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4282,19 +4366,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.09
+      value: -4.07
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.103
+      value: -0.233
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.935
+      value: -4.899
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4758,22 +4842,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 20
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"affectionEnough\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":10},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"affectionEnough\",\"CheckType\":0,\"RequiredValue\":false}],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":42,\"yPos\":183},\"ID\":12,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"affectionIncrease\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Nod
-    head \\\"yes\\\".\",\"parentUIDs\":[6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":182},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Shake
-    head \\\"no\\\".\",\"parentUIDs\":[6],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1013.5,\"yPos\":395},\"ID\":17,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"SceneChangeReady\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Nod
-    good night back.\",\"parentUIDs\":[7],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":231,\"yPos\":378},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hold
-    hands, then nod your approval.\",\"parentUIDs\":[18],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"affectionIncrease\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"SceneChangeReady\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"kiss\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"handHold\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"goodNight\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"affectionEnough\",\"BoolValue\":false}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":187.5,\"yPos\":-105},\"ID\":0,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"I
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"affectionEnough\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":10},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"affectionEnough\",\"CheckType\":0,\"RequiredValue\":false}],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":99,\"yPos\":203},\"ID\":12,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"affectionIncrease\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Nod
+    head \\\"yes\\\".\",\"parentUIDs\":[6],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":402,\"yPos\":202},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Shake
+    head \\\"no\\\".\",\"parentUIDs\":[6],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1070.5,\"yPos\":415},\"ID\":17,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"SceneChangeReady\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Nod
+    good night back.\",\"parentUIDs\":[7],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":288,\"yPos\":398},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hold
+    hands, then nod your approval.\",\"parentUIDs\":[18],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"affectionIncrease\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"SceneChangeReady\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"kiss\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"handHold\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"goodNight\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"affectionEnough\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"handHold2\",\"BoolValue\":false}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":244.5,\"yPos\":-85},\"ID\":0,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"I
     hope tonight helped, ma cherie. Even just a little bit. I know it isn\u2019t
     much, in the grand scheme of things, but I really care about you. I want to do
-    everything I can. \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":187.25,\"yPos\":30},\"ID\":6,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"But\u2026
+    everything I can. \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244.25,\"yPos\":50},\"ID\":6,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"But\u2026
     I do have one tiny request\u2026 if you\u2019ll indulge a sinful, guilt guy like
-    me just one thing, tonight\u2026 \",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":779.25,\"yPos\":373},\"ID\":7,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"goodNight\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"kiss\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold\",\"Value\":false}],\"TMPFontGUID\":null,\"Text\":\"Good
-    night, my love. \",\"parentUIDs\":[10,14,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":46.25,\"yPos\":460},\"ID\":10,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"kiss\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"Value\":false}],\"TMPFontGUID\":null,\"Text\":\"(small
+    me just one thing, tonight\u2026 \",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":836.25,\"yPos\":393},\"ID\":7,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"goodNight\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"kiss\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold\",\"Value\":false}],\"TMPFontGUID\":null,\"Text\":\"Good
+    night, my love. \",\"parentUIDs\":[10,14,15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":103.25,\"yPos\":480},\"ID\":10,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"kiss\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"Value\":false}],\"TMPFontGUID\":null,\"Text\":\"(small
     soft kiss) \\nAw, man\u2026 I don\u2019t know if I\u2019ll ever get used to that\u2026
     No matter how many times we\u2019ve done it, you\u2019re always so soft to the
-    touch\u2026 And just\u2026 so beautiful.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":483,\"yPos\":342},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Heh...\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":2,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":571.75,\"yPos\":240},\"ID\":15,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"kiss\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold\",\"Value\":false}],\"TMPFontGUID\":null,\"Text\":\"Well,
-    no sweat for Karamatsu Matsuno, obviously, heh.\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":169,\"yPos\":264},\"ID\":18,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"kiss\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"Value\":false}],\"TMPFontGUID\":null,\"Text\":\"(Your
-    affection isn't high enough for a kiss, so he wants to hold hands.)\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    touch\u2026 And just\u2026 so beautiful.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":532,\"yPos\":372},\"ID\":14,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold2\",\"Value\":true}],\"TMPFontGUID\":null,\"Text\":\"Heh...\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":2,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":629.75,\"yPos\":257},\"ID\":15,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"kiss\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold\",\"Value\":false}],\"TMPFontGUID\":null,\"Text\":\"Well,
+    no sweat for Karamatsu Matsuno, obviously, heh.\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":1,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":218,\"yPos\":284},\"ID\":18,\"ParamActions\":[{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"handHold\",\"Value\":true},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"sinfulRequest\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"bedTime\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"kiss\",\"Value\":false},{\"__type\":\"EditableSetBoolParamAction:#DialogueEditor\",\"ParameterName\":\"noSinning\",\"Value\":false}],\"TMPFontGUID\":null,\"Text\":\"(Your
+    affection isn't high enough for a kiss, so he wants to hold hands.)\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1}]}"
   saveVersion: 110
   DefaultName: Karamatsu
   DefaultSprite: {fileID: 0}
@@ -4809,7 +4893,7 @@ Transform:
   m_Children:
   - {fileID: 646948295}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1578954402
 PrefabInstance:
@@ -5132,7 +5216,7 @@ Transform:
   - {fileID: 1113785642}
   - {fileID: 1801024693}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1722306564
 GameObject:
@@ -5326,7 +5410,7 @@ RectTransform:
   - {fileID: 1578954403}
   - {fileID: 1854267631}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -5.134, y: -264.837, z: -0.332}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5345,6 +5429,18 @@ PrefabInstance:
       value: LevelLoader
       objectReference: {fileID: 0}
     - target: {fileID: 5167945179469040124, guid: e1c06f2a2e24ddf47816e0cdbaf1724a, type: 3}
+      propertyPath: destroy1
+      value: 
+      objectReference: {fileID: 1734003982}
+    - target: {fileID: 5167945179469040124, guid: e1c06f2a2e24ddf47816e0cdbaf1724a, type: 3}
+      propertyPath: destroy2
+      value: 
+      objectReference: {fileID: 2125790985}
+    - target: {fileID: 5167945179469040124, guid: e1c06f2a2e24ddf47816e0cdbaf1724a, type: 3}
+      propertyPath: destroy3
+      value: 
+      objectReference: {fileID: 1125504513}
+    - target: {fileID: 5167945179469040124, guid: e1c06f2a2e24ddf47816e0cdbaf1724a, type: 3}
       propertyPath: sceneName
       value: End
       objectReference: {fileID: 0}
@@ -5358,7 +5454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5167945179469040125, guid: e1c06f2a2e24ddf47816e0cdbaf1724a, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5167945179469040125, guid: e1c06f2a2e24ddf47816e0cdbaf1724a, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5886,14 +5982,87 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822982682}
-  m_LocalRotation: {x: 0.18604541, y: 0.20778768, z: 0.08133723, w: 0.9568677}
-  m_LocalPosition: {x: -7.88, y: 15.96, z: -43.23}
+  m_LocalRotation: {x: 0.0846154, y: 0.14956017, z: -0.012019238, w: 0.98505205}
+  m_LocalPosition: {x: -16.04, y: 0.98, z: -47.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 18.798, y: 26.874, z: 14.247}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 9.805, y: 17.275, z: 0.095}
+--- !u!1001 &1840029222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9535426
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0573243
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0560733
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.865
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.886
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.681109
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.034997143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.73038167
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.03752871
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5.883
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 93.999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31db17bc8246d644aa713e6068fd6e84, type: 2}
+    - target: {fileID: 919132149155446097, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
+      propertyPath: m_Name
+      value: duvet fixed
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b2c2b49f107ca54f99e79bf7ce7a57d, type: 3}
 --- !u!1001 &1854267630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6312,7 +6481,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2002273393
 GameObject:
@@ -6600,6 +6769,41 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &2101519460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7058971531863114692, guid: 65883b7cf413b1f469a611bd7e5feab0, type: 3}
+  m_PrefabInstance: {fileID: 522808651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2101519463
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101519460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6322085923863819188, guid: 1034256825efa1742bddb2cf4aaba63c, type: 3}
+--- !u!54 &2101519464
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101519460}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2125790985
 GameObject:
   m_ObjectHideFlags: 0
@@ -6693,7 +6897,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6758,7 +6962,7 @@ Transform:
   - {fileID: 554472729}
   - {fileID: 1067613285}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2127581353
 GameObject:

@@ -55,7 +55,12 @@ public class KaramatsuAnimatorController : MonoBehaviour
                 handCollider.SetActive(true);
                 ChangeAnimation("handhold1");
             }
-            if(ConversationManager.Instance.GetBool("kiss")){
+            if (ConversationManager.Instance.GetBool("handHold2"))
+            {
+                handCollider.SetActive(false);
+                ChangeAnimation("handhold2");
+            }
+            if (ConversationManager.Instance.GetBool("kiss")){
                 ChangeAnimation("kiss");
             }
               if(ConversationManager.Instance.GetBool("noSinning")){
