@@ -71,6 +71,7 @@
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+    <Compile Include="Assets\KaramatsuAnimation\Materials\FaceChange.cs" />
     <Compile Include="Assets\UI\DialogueEditor\Assets\Scripts\Condition.cs" />
     <Compile Include="Assets\Scripts\subwayScene.cs" />
     <Compile Include="Assets\endgame.cs" />
@@ -745,6 +746,9 @@
     </Reference>
     <Reference Include="Unity.XR.OpenVR">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenVR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>

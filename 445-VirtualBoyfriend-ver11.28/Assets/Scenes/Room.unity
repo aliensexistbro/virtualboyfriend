@@ -3627,6 +3627,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
   m_PrefabInstance: {fileID: 1124468997}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1124468999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2686246092878662770, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}
+  m_PrefabInstance: {fileID: 1124468997}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1124469000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3672,6 +3677,31 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1124469002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124468999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be09efc777ad8b488629ccfa5620a20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleFace: {fileID: 2100000, guid: e34c6176c8381ad4d874080b6ba397d4, type: 2}
+  talkMaterials:
+  - {fileID: 2100000, guid: 6f424173b906fa64795cbcc76325dffe, type: 2}
+  - {fileID: 2100000, guid: be33844168983b44499f8295d4b05666, type: 2}
+  - {fileID: 2100000, guid: e34c6176c8381ad4d874080b6ba397d4, type: 2}
+  - {fileID: 2100000, guid: 53732fc830491a24d9b6e9f8c6adbb4f, type: 2}
+  - {fileID: 2100000, guid: 1039d508c23608448ab4b7c0003f4686, type: 2}
+  - {fileID: 2100000, guid: d13da7ece9be03249acb3e00062595c5, type: 2}
+  kissMaterials: {fileID: 2100000, guid: 6f424173b906fa64795cbcc76325dffe, type: 2}
+  isKiss: 1
+  isTalk: 0
+  rend: {fileID: 0}
+  switchInterval: 0.5
 --- !u!4 &1124469003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9f0423af5c4035b4f9815fb1c30310ba, type: 3}

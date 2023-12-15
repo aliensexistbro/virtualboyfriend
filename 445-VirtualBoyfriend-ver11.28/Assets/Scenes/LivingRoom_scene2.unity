@@ -824,6 +824,31 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &377003479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377003476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be09efc777ad8b488629ccfa5620a20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleFace: {fileID: 2100000, guid: e34c6176c8381ad4d874080b6ba397d4, type: 2}
+  talkMaterials:
+  - {fileID: 2100000, guid: 6f424173b906fa64795cbcc76325dffe, type: 2}
+  - {fileID: 2100000, guid: be33844168983b44499f8295d4b05666, type: 2}
+  - {fileID: 2100000, guid: e34c6176c8381ad4d874080b6ba397d4, type: 2}
+  - {fileID: 2100000, guid: 53732fc830491a24d9b6e9f8c6adbb4f, type: 2}
+  - {fileID: 2100000, guid: 1039d508c23608448ab4b7c0003f4686, type: 2}
+  - {fileID: 2100000, guid: d13da7ece9be03249acb3e00062595c5, type: 2}
+  kissMaterials: {fileID: 2100000, guid: 6f424173b906fa64795cbcc76325dffe, type: 2}
+  isKiss: 0
+  isTalk: 0
+  rend: {fileID: 0}
+  switchInterval: 1
 --- !u!1001 &396353164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2671,6 +2696,8 @@ MonoBehaviour:
   karaController: {fileID: 796263986}
   cookies: {fileID: 0}
   karaModel: {fileID: 0}
+  handCollider: {fileID: 0}
+  bedTime: 0
 --- !u!95 &796263986 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 763aadaae06c4094793a004a64241d61, type: 3}
@@ -4640,6 +4667,8 @@ MonoBehaviour:
   karaController: {fileID: 1654204373}
   cookies: {fileID: 0}
   karaModel: {fileID: 1654204372}
+  handCollider: {fileID: 0}
+  bedTime: 0
 --- !u!1 &1681945137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5397873883984373094, guid: f5afaf42951d65d4ba1aabe561a4757c, type: 3}
