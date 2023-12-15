@@ -47,7 +47,7 @@ public class ProgressBar : MonoBehaviour
             slider.value += fillProgress * Time.deltaTime;
 
         if(slider.value>=0.4f){
-            Debug.Log("affection full");
+            //Debug.Log("affection full");
             ConversationManager.Instance.SetBool("affectionEnough",true);
         }
     }

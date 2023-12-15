@@ -666,6 +666,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+--- !u!82 &287830183 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3900108755062758274, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+  m_PrefabInstance: {fileID: 287830182}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &295060959
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,8 +852,9 @@ MonoBehaviour:
   kissMaterials: {fileID: 2100000, guid: 6f424173b906fa64795cbcc76325dffe, type: 2}
   isKiss: 0
   isTalk: 0
+  dialogueAudio: {fileID: 287830183}
   rend: {fileID: 0}
-  switchInterval: 1
+  switchInterval: 0.5
 --- !u!1001 &396353164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3312,6 +3318,10 @@ PrefabInstance:
       propertyPath: destroy2
       value: 
       objectReference: {fileID: 1498398281}
+    - target: {fileID: 5167945179469040124, guid: e1c06f2a2e24ddf47816e0cdbaf1724a, type: 3}
+      propertyPath: destroy3
+      value: 
+      objectReference: {fileID: 1654204372}
     - target: {fileID: 5167945179469040124, guid: e1c06f2a2e24ddf47816e0cdbaf1724a, type: 3}
       propertyPath: sceneName
       value: Room
